@@ -36,8 +36,21 @@
   width: auto;
   margin-bottom: 40px;
 }
+.second_pair_container {
+  border: 2px solid rgb(204, 193, 193);
+  padding: 14px;
+  border-radius: 6px;
+  list-style-type: none;
+  width: auto;
+  margin-bottom: 40px;
+}
+.second_mini_pair_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .radio_btn {
-  background-color: red;
+  accent-color: red;
 }
 .desc_container {
   display: flex;
@@ -45,7 +58,7 @@
   align-items: center;
 }
 .pair_dkk_container {
-  margin-left: 14px;
+  margin-left: 12px;
 }
 .pair_name {
   color: black;
@@ -53,6 +66,19 @@
   font-family: 'Roboto';
 }
 .dkk {
+  color: black;
+  font-size: 24px;
+  font-family: 'Roboto';
+}
+.popular_container {
+  margin-left: 220px;
+}
+.offer_2 {
+  color: black;
+  font-size: 24px;
+  font-family: 'Roboto';
+}
+.popular_desc {
   color: black;
   font-size: 24px;
   font-family: 'Roboto';
@@ -108,4 +134,37 @@
   font-size: 24px;
   font-family: 'Italic';
   margin-left: 4px;
+}
+.sub_division_container {
+  display: flex;
+  align-items: center;
+}
+.sub_headings {
+  color: black;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-left: 38px;
+}
+.desc_1 {
+  color: black;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-left: 38px;
+}
+.select_option {
+  padding: 4px;
+  margin-right: 12px;
+  margin-left: 12px;
+  font-size: 18px;
+  width: 80px;
+}
+.radio_container_btn {
+  border-width: 0px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+}
+.radio_container_btn_second_pair {
+  border-width: 0px;
+  background-color: transparent;
 }
